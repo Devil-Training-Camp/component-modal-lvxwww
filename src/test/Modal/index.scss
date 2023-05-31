@@ -1,0 +1,20 @@
+.modal-test—cont {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  > div {
+    font-size: 14px;
+    padding: 0 15px;
+    min-width: 88px;
+    height: 36px;
+    line-height: 36px;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid black;
+    margin-right: 10px;
+    &:hover {
+      background-color: rgba(205, 163, 190, 0.6);
+    }
+  }
+}
